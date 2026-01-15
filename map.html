@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7a2d07076b57b826aeb79b2b0af6e1dd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7a2d07076b57b826aeb79b2b0af6e1dd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7a2d07076b57b826aeb79b2b0af6e1dd = L.map(
+                "map_7a2d07076b57b826aeb79b2b0af6e1dd",
+                {
+                    center: [43.61, 3.88],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1336b41860c9651f4a50c197898995ac = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1336b41860c9651f4a50c197898995ac.addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+            var marker_14b0f1fe9e9405daad85f29c77aa70d9 = L.marker(
+                [43.6087, 3.8888],
+                {
+}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+            var icon_d1dc374dc87cd7ee79522817f1a1f577 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_609e426257328b908b3242e0c0c6e2de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9838b7478238c7ae5b3f5e15fa91b98d = $(`<div id="html_9838b7478238c7ae5b3f5e15fa91b98d" style="width: 100.0%; height: 100.0%;">Parking voiture : Antigone</div>`)[0];
+                popup_609e426257328b908b3242e0c0c6e2de.setContent(html_9838b7478238c7ae5b3f5e15fa91b98d);
+            
+        
+
+        marker_14b0f1fe9e9405daad85f29c77aa70d9.bindPopup(popup_609e426257328b908b3242e0c0c6e2de)
+        ;
+
+        
+    
+    
+                marker_14b0f1fe9e9405daad85f29c77aa70d9.setIcon(icon_d1dc374dc87cd7ee79522817f1a1f577);
+            
+    
+            var marker_0c523685e333187647143130222d2aa0 = L.marker(
+                [43.6086, 3.8798],
+                {
+}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+            var icon_7544cc23ff99421b335648d7a5ca4244 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_14fa8a8240a9a07f58e98abbfbf15dd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7df8c9d3e3943473e83ea15d4c2e4619 = $(`<div id="html_7df8c9d3e3943473e83ea15d4c2e4619" style="width: 100.0%; height: 100.0%;">Parking voiture : Comédie</div>`)[0];
+                popup_14fa8a8240a9a07f58e98abbfbf15dd2.setContent(html_7df8c9d3e3943473e83ea15d4c2e4619);
+            
+        
+
+        marker_0c523685e333187647143130222d2aa0.bindPopup(popup_14fa8a8240a9a07f58e98abbfbf15dd2)
+        ;
+
+        
+    
+    
+                marker_0c523685e333187647143130222d2aa0.setIcon(icon_7544cc23ff99421b335648d7a5ca4244);
+            
+    
+            var marker_3ed9c77cb8768e7ad1130030261c05d4 = L.marker(
+                [43.6139, 3.8823],
+                {
+}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+            var icon_60fa3310f1546c34024aa2b1e01057fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc9e445dff0df4f35c15d8c7f126781b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87644ac09569a6ec67fa6f5c08aa2471 = $(`<div id="html_87644ac09569a6ec67fa6f5c08aa2471" style="width: 100.0%; height: 100.0%;">Parking voiture : Corum</div>`)[0];
+                popup_dc9e445dff0df4f35c15d8c7f126781b.setContent(html_87644ac09569a6ec67fa6f5c08aa2471);
+            
+        
+
+        marker_3ed9c77cb8768e7ad1130030261c05d4.bindPopup(popup_dc9e445dff0df4f35c15d8c7f126781b)
+        ;
+
+        
+    
+    
+                marker_3ed9c77cb8768e7ad1130030261c05d4.setIcon(icon_60fa3310f1546c34024aa2b1e01057fd);
+            
+    
+            var marker_5a9ed54be821646b6a21e088acfd53e3 = L.marker(
+                [43.6078, 3.8925],
+                {
+}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+            var icon_d239d30792250b0115c33c42da262306 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_375c239969c3ef540a3186d3570b3f2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_243084534ff5cae89b473f42c919d638 = $(`<div id="html_243084534ff5cae89b473f42c919d638" style="width: 100.0%; height: 100.0%;">Parking voiture : Europa</div>`)[0];
+                popup_375c239969c3ef540a3186d3570b3f2c.setContent(html_243084534ff5cae89b473f42c919d638);
+            
+        
+
+        marker_5a9ed54be821646b6a21e088acfd53e3.bindPopup(popup_375c239969c3ef540a3186d3570b3f2c)
+        ;
+
+        
+    
+    
+                marker_5a9ed54be821646b6a21e088acfd53e3.setIcon(icon_d239d30792250b0115c33c42da262306);
+            
+    
+            var marker_cb92f798fce092cabf7c679a80829572 = L.marker(
+                [43.6107, 3.8766],
+                {
+}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+            var icon_e39e33b1f795d507e7457293b89b8dd9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_189b65ed6bcdfe077ae8d511f49ad545 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1e0b3a3c13da821f9cbb42ba3ebfecb = $(`<div id="html_a1e0b3a3c13da821f9cbb42ba3ebfecb" style="width: 100.0%; height: 100.0%;">Parking voiture : Foch</div>`)[0];
+                popup_189b65ed6bcdfe077ae8d511f49ad545.setContent(html_a1e0b3a3c13da821f9cbb42ba3ebfecb);
+            
+        
+
+        marker_cb92f798fce092cabf7c679a80829572.bindPopup(popup_189b65ed6bcdfe077ae8d511f49ad545)
+        ;
+
+        
+    
+    
+                marker_cb92f798fce092cabf7c679a80829572.setIcon(icon_e39e33b1f795d507e7457293b89b8dd9);
+            
+    
+            var circle_marker_4f1f4a20e8158dcf0f1444c4595ff34b = L.circleMarker(
+                [43.609, 3.8891],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+        var popup_c517d16c13708b08ec1896268b810a11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a82e07376bf55175dc78d242f5f00d1 = $(`<div id="html_3a82e07376bf55175dc78d242f5f00d1" style="width: 100.0%; height: 100.0%;">Parking vélo : Vélo Antigone</div>`)[0];
+                popup_c517d16c13708b08ec1896268b810a11.setContent(html_3a82e07376bf55175dc78d242f5f00d1);
+            
+        
+
+        circle_marker_4f1f4a20e8158dcf0f1444c4595ff34b.bindPopup(popup_c517d16c13708b08ec1896268b810a11)
+        ;
+
+        
+    
+    
+            var circle_marker_7f4a7e86c99cf5e842ffa1b6f84b52bd = L.circleMarker(
+                [43.6082, 3.8795],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+        var popup_6d6df4eab27079a3d4849aa726c0a9f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cc77d729645316548db3707441990c9 = $(`<div id="html_6cc77d729645316548db3707441990c9" style="width: 100.0%; height: 100.0%;">Parking vélo : Vélo Comédie</div>`)[0];
+                popup_6d6df4eab27079a3d4849aa726c0a9f1.setContent(html_6cc77d729645316548db3707441990c9);
+            
+        
+
+        circle_marker_7f4a7e86c99cf5e842ffa1b6f84b52bd.bindPopup(popup_6d6df4eab27079a3d4849aa726c0a9f1)
+        ;
+
+        
+    
+    
+            var circle_marker_1ccb1abdf45ad78cfb77e6228ade11f1 = L.circleMarker(
+                [43.6135, 3.8826],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+        var popup_43bf63879fb34f21829fb31dc69b5aeb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_805cdaf8da7925edda3bf05b3f70656e = $(`<div id="html_805cdaf8da7925edda3bf05b3f70656e" style="width: 100.0%; height: 100.0%;">Parking vélo : Vélo Corum</div>`)[0];
+                popup_43bf63879fb34f21829fb31dc69b5aeb.setContent(html_805cdaf8da7925edda3bf05b3f70656e);
+            
+        
+
+        circle_marker_1ccb1abdf45ad78cfb77e6228ade11f1.bindPopup(popup_43bf63879fb34f21829fb31dc69b5aeb)
+        ;
+
+        
+    
+    
+            var circle_marker_0a8609f28c852ae01dab4378d9aa6dab = L.circleMarker(
+                [43.6076, 3.8922],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+        var popup_0fcdaddc75f4fdfed9693f0a434769d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88f4fc0fb70f0aedda65f1971d0c15a3 = $(`<div id="html_88f4fc0fb70f0aedda65f1971d0c15a3" style="width: 100.0%; height: 100.0%;">Parking vélo : Vélo Europa</div>`)[0];
+                popup_0fcdaddc75f4fdfed9693f0a434769d2.setContent(html_88f4fc0fb70f0aedda65f1971d0c15a3);
+            
+        
+
+        circle_marker_0a8609f28c852ae01dab4378d9aa6dab.bindPopup(popup_0fcdaddc75f4fdfed9693f0a434769d2)
+        ;
+
+        
+    
+    
+            var marker_7a44395c18a396260d3318aab5752822 = L.marker(
+                [43.6085, 3.8799],
+                {
+}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+            var icon_f5fa3b0a8accde123211714e4ff714c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "train",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b793aa88702e01269a3fccd22949f208 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da783946238134135f199801075df499 = $(`<div id="html_da783946238134135f199801075df499" style="width: 100.0%; height: 100.0%;">Station tram : Comédie</div>`)[0];
+                popup_b793aa88702e01269a3fccd22949f208.setContent(html_da783946238134135f199801075df499);
+            
+        
+
+        marker_7a44395c18a396260d3318aab5752822.bindPopup(popup_b793aa88702e01269a3fccd22949f208)
+        ;
+
+        
+    
+    
+                marker_7a44395c18a396260d3318aab5752822.setIcon(icon_f5fa3b0a8accde123211714e4ff714c7);
+            
+    
+            var marker_448252fa5a0e8e735d8005b06d0ed018 = L.marker(
+                [43.6137, 3.8824],
+                {
+}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+            var icon_df82b6883de01de5de48f5549e8a297e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "train",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b0a81da955f4d170dc18017d140aaa46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ceb63d1453a6e20a21b76c18d15e5af0 = $(`<div id="html_ceb63d1453a6e20a21b76c18d15e5af0" style="width: 100.0%; height: 100.0%;">Station tram : Corum</div>`)[0];
+                popup_b0a81da955f4d170dc18017d140aaa46.setContent(html_ceb63d1453a6e20a21b76c18d15e5af0);
+            
+        
+
+        marker_448252fa5a0e8e735d8005b06d0ed018.bindPopup(popup_b0a81da955f4d170dc18017d140aaa46)
+        ;
+
+        
+    
+    
+                marker_448252fa5a0e8e735d8005b06d0ed018.setIcon(icon_df82b6883de01de5de48f5549e8a297e);
+            
+    
+            var marker_cd195035ca53e44abc1ace4a257b89ff = L.marker(
+                [43.6091, 3.8889],
+                {
+}
+            ).addTo(map_7a2d07076b57b826aeb79b2b0af6e1dd);
+        
+    
+            var icon_242b8a4f214b1c5676181d5e05eca7a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "train",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2554d1d1f957099978ca61ba5e09046b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1ad15118830f3cb3792bd4d3c53f443 = $(`<div id="html_d1ad15118830f3cb3792bd4d3c53f443" style="width: 100.0%; height: 100.0%;">Station tram : Antigone</div>`)[0];
+                popup_2554d1d1f957099978ca61ba5e09046b.setContent(html_d1ad15118830f3cb3792bd4d3c53f443);
+            
+        
+
+        marker_cd195035ca53e44abc1ace4a257b89ff.bindPopup(popup_2554d1d1f957099978ca61ba5e09046b)
+        ;
+
+        
+    
+    
+                marker_cd195035ca53e44abc1ace4a257b89ff.setIcon(icon_242b8a4f214b1c5676181d5e05eca7a6);
+            
+</script>
+</html>
