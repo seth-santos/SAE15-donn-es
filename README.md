@@ -21,5 +21,4 @@ Analyse réalisée sur une semaine (lundi à dimanche),
 avec données réelles du lundi au jeudi et simulations pour le week-end.
 
 ## Auteurs
-- Ton Nom
-- Binôme (le cas échéant)
+- OVOURA Seth Santos
